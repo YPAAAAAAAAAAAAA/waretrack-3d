@@ -1,0 +1,20 @@
+{
+  "id": "waretrack-3d",
+  "title": {
+    "en": "waretrack-3d",
+    "zh": "三维仓储控制塔"
+  },
+  "intro": {
+    "en": "Phone-first logistics control tower. Five warehouses, trucks, forklifts and pallets keep moving. Drag to orbit, pinch to zoom, tap a vehicle for the order.",
+    "zh": "手机优先的仓储控制塔。五座仓库、货车、叉车和托盘持续运转。拖动环视，双指缩放，点选车辆查看订单。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/yard.css",
+    "vendor/yard.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/waretrack-3d"
+}
