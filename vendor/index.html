@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>waretrack-3d</title>
+<link rel="stylesheet" href="yard.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<aside id="panel" aria-label="Yard controls">
+  <div class="top"><b>WareTrack</b><span id="clock">06:40</span></div>
+  <div class="kpis">
+    <p><b id="kOut">128</b><span>outbound</span></p>
+    <p><b id="kDock">8/18</b><span>docks</span></p>
+    <p><b id="kFleet">11</b><span>fleet</span></p>
+    <p><b id="kTime">96%</b><span>on time</span></p>
+  </div>
+  <div class="sites" id="sites"></div>
+  <div id="card">
+    <div id="cardTitle">Yard overview</div>
+    <div id="cardBody">Tap a truck, forklift or hall.</div>
+  </div>
+  <ul class="orders" id="orders"></ul>
+</aside>
+<p id="hint">Drag to orbit · pinch to zoom · tap a vehicle<small>idea after @nguyenthong251 (nguyenthong251/waretrack-3d); clean-room implementation, no code copied</small></p>
+<button id="corner" type="button" aria-label="Show controls" aria-expanded="false">⚙</button>
+<script src="yard.js"></script>
+</body>
+</html>
